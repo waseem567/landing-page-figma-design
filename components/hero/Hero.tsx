@@ -1,11 +1,15 @@
 import React from "react";
+import InnerSection from "./InnerSection";
 
 const Hero = () => {
   return (
-    <div className="relative">
+    <div className="relative flex justify-center items-center border h-[calc(100vh - 120px)] ">
+      <div className="h-full border border-red-400">
+        <InnerSection />
+      </div>
       {/* 1 */}
       <svg
-        className="absolute right-5 top-0"
+        className="absolute right-5 top-[-150px] scale-75 z-[-1]"
         width="416"
         height="675"
         viewBox="0 0 416 675"
@@ -35,7 +39,7 @@ const Hero = () => {
       </svg>
       {/* 2 */}
       <svg
-        className="absolute right-5 top-[-20px]"
+        className="absolute right-5 top-[-220px] scale-75 z-[-1]"
         width="383"
         height="846"
         viewBox="0 0 383 846"
@@ -63,6 +67,37 @@ const Hero = () => {
           </linearGradient>
         </defs>
       </svg>
+      {/* 3 */}
+      <svg
+        className="absolute right-[-100px] top-[0%] translate-y-[50%] z-[-1]"
+        width="736"
+        height="423"
+        viewBox="0 0 736 423"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M738.5 4.5C491.667 -7.66666 -0.900015 58.9 3.49999 422.5"
+          stroke="url(#paint0_linear_2_33)"
+          stroke-width="6"
+        />
+        <defs>
+          <linearGradient
+            id="paint0_linear_2_33"
+            x1="700.5"
+            y1="-3.99998"
+            x2="14.5"
+            y2="361"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop stop-color="#343045" />
+            <stop offset="0.213542" stop-color="#C0B7E8" />
+            <stop offset="0.71875" stop-color="#8176AF" />
+            <stop offset="1" stop-color="#343045" />
+          </linearGradient>
+        </defs>
+      </svg>
+      {/* 4 */}
     </div>
   );
 };

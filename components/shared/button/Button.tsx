@@ -11,7 +11,7 @@ interface RootInterface {
 const Button = ({ height, width, text, to, background }: RootInterface) => {
   return (
     <button
-      className={`h-[${height}px] uppercase w-[${width}px] rounded-full bg-gradient-to-r from-[#8176AF] to-[#C0B7E8] text-[12px] font-bold`}
+      className={`block h-[${height}px] uppercase w-[${width}px] rounded-full bg-gradient-to-r from-[#8176AF] to-[#C0B7E8] text-[12px] font-bold`}
     >
       {text}
     </button>

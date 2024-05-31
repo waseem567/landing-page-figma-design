@@ -16,7 +16,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className} style={{ background: "#302C42" }}>
+      <body
+        className={`${inter.className} overflow-x-hidden`}
+        style={{ background: "#302C42" }}
+      >
         {children}
       </body>
     </html>
