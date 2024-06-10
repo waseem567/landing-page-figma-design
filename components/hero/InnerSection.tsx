@@ -4,14 +4,14 @@ import Image from "next/image";
 
 const InnerSection = () => {
   return (
-    <div className="h-full w-full grid grid-cols-2 border">
+    <div className="h-full w-full grid grid-cols-2 ">
       {/* hero section text */}
       <div className="flex gap-5 flex-col justify-center items-start h-full">
         <p className="w-[80%] capitalize text-white font-bold text-[46px] leading-none break-words text-wrap">
           <span className="text-gradient">Dive</span> into the depths of{" "}
           <span className="text-gradient">Virtual Reality</span>
         </p>
-        <p className="w-[80%] font-normal text-base text-white leading-5">
+        <p className="w-[80%] font-400-para text-white leading-5">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore nisl tincidunt eget.
           Lectus mauris eros in vitae .

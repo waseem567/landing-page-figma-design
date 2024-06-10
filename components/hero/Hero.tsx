@@ -3,12 +3,12 @@ import InnerSection from "./InnerSection";
 
 const Hero = () => {
   return (
-    <div className="relative flex justify-center items-center border h-[calc(100vh - 120px)] ">
-      <div className="h-full border border-red-400">
+    <div className="relative flex justify-center items-center min-h-[500px]  h-[calc(100vh-120px)] ">
+      <div className="h-full">
         <InnerSection />
       </div>
       {/* 1 */}
-      <svg
+      {/* <svg
         className="absolute right-5 top-[-150px] scale-75 z-[-1]"
         width="416"
         height="675"
@@ -36,9 +36,9 @@ const Hero = () => {
             <stop offset="1" stop-color="#343045" />
           </linearGradient>
         </defs>
-      </svg>
+      </svg> */}
       {/* 2 */}
-      <svg
+      {/* <svg
         className="absolute right-5 top-[-220px] scale-75 z-[-1]"
         width="383"
         height="846"
@@ -66,9 +66,9 @@ const Hero = () => {
             <stop offset="1" stop-color="#343045" />
           </linearGradient>
         </defs>
-      </svg>
+      </svg> */}
       {/* 3 */}
-      <svg
+      {/* <svg
         className="absolute right-[-100px] top-[0%] translate-y-[50%] z-[-1]"
         width="736"
         height="423"
@@ -96,7 +96,7 @@ const Hero = () => {
             <stop offset="1" stop-color="#343045" />
           </linearGradient>
         </defs>
-      </svg>
+      </svg> */}
       {/* 4 */}
     </div>
   );

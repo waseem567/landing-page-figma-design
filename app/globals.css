@@ -6,3 +6,19 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.font-700 {
+  font-size: 36px;
+  font-weight: 700;
+}
+.font-700-thin {
+  font-size: 36px;
+  font-weight: 300;
+}
+.font-400-para {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+}
+/* * {
+  border: 1px solid white;
+} */
